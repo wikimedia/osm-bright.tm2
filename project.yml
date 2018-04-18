@@ -16,7 +16,18 @@ center:
 description: ''
 format: "png8:m=h"
 interactivity_layer: ''
-layers: null
+layers:
+  - landuse
+  - waterway
+  - water
+  - aeroway
+  - building
+  - road
+  - admin
+  - country_label
+  - place_label
+  - poi_label
+  - road_label
 maxzoom: 18
 minzoom: 0
 name: OSM Bright 2
