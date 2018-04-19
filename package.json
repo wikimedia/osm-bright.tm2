@@ -1,6 +1,6 @@
 {
   "name": "@kartotherian/osm-bright-style",
-  "version": "3.0.0",
+  "version": "3.0.1",
   "description": "A CartoCSS map style for Kartotherian tile service",
   "main": "./index.js",
   "repository": "kartotherian/osm-bright.tm2",
