@@ -182,11 +182,11 @@
   [type='city'][zoom>=8] {
   	text-face-name: @sans_md;
     text-size: 14;
-    [zoom>=10] { 
+    [zoom>=10] {
       text-size: 16;
       text-wrap-width: 110;
     }
-    [zoom>=12] { 
+    [zoom>=12] {
       text-size: 20;
       text-wrap-width: 120;
     }
@@ -266,9 +266,9 @@
 // ---------------------------------------------------------------------
 // Roads
 
-#road_label::shield-pt[class='motorway'][zoom>=7][zoom<=10][localrank=1][reflen<=6],
-#road_label::shield-pt[class='motorway'][zoom>=9][zoom<=10][localrank=1][reflen<=6],
-#road_label::shield-ln[zoom>=11][reflen<=6] {
+#road_label::shield-pt[class='motorway'][zoom>=7][zoom<=10][localrank=1][reflen>0][reflen<=6],
+#road_label::shield-pt[class='motorway'][zoom>=9][zoom<=10][localrank=1][reflen>0][reflen<=6],
+#road_label::shield-ln[zoom>=11][reflen>0][reflen<=6] {
   shield-name: "[ref].replace('·', '\n')";
   shield-size: 9;
   shield-line-spacing: -4;
